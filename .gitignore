@@ -6,3 +6,19 @@
 .vscode/
 
 Assistente-Inteligente/*.zip
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Credenciais
+.env
+.env.*
+!.env.example
+# Bancos locais
+*.db
+*.sqlite
+*.sqlite3
+# Arquivos compactados
+*.zip
